@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DocLinkBanner from '../../components/DocLinkBanner.astro';
+import { docsPath } from '../../config/site';
+---
+
+<BaseLayout
+  title="Over Openterface"
+  description="Leer meer over Openterface — open-source KVM-over-USB-oplossingen van TechxArtisan."
+  ogImageAlt="Open-source Openterface KVM-over-USB-oplossingen van TechxArtisan"
+  canonicalPath="/about/"
+>
+  <DocLinkBanner />
+  <section class="py-16">
+    <div class="mx-auto max-w-3xl px-4">
+      <h1 class="text-4xl font-bold">Over Openterface</h1>
+      <p class="mt-6 text-lg leading-relaxed text-muted">
+        Openterface bouwt ultracompacte open-source KVM-over-USB-tools voor IT-professionals, developers en makers.
+        Van de crowdfunding Mini-KVM tot de sleutelhanger-grote KVM-GO en de programmeerbare KeyMod-serie — onze missie is het besturen van headless computers te vereenvoudigen zonder omvangrijke apparatuur of complexe netwerken.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href={docsPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Meer over ons →
+        </a>
+        <a href={docsPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Compliance →
+        </a>
+        <a href={docsPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Community →
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
