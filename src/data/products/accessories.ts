@@ -16,8 +16,8 @@ export interface AccessorySku {
  */
 export const accessorySkus: AccessorySku[] = [
   {
-    title: "Openterface Accessories",
-    description: "Unverzichtbares Zubehör wie Videoadapter, Hochgeschwindigkeitskabel und Speicherlösungen. Verbessern Sie Ihr Openterface-Erlebnis mit hochwertiger Ausrüstung aus dem TxA Shop.",
+    title: "Openterface-accessoires",
+    description: "Essentiële accessoires, waaronder video-adapters, high-speed kabels en opslagoplossingen. Verbeter je Openterface-ervaring met kwaliteitsuitrusting van TxA Shop.",
     image: 'https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp',
     shopHref: 'https://shop.techxartisan.com/products/vga-to-hdmi-converter-cable',
     docsHref: docsPath('/accessories/vga-to-hdmi-cable/'),
@@ -70,32 +70,32 @@ export const accessorySkus: AccessorySku[] = [
 export const accessoriesProduct: Product = {
   slug: 'accessories',
   title: 'Openterface Accessories',
-  slogan: "Vervollständigen Sie Ihr Setup",
-  subtitle: "Premium-Kabel, Adapter und Toolkit-Taschen für Profis.",
+  slogan: "Maak je setup compleet",
+  subtitle: "Premium kabels, adapters en toolkit-tassen voor professionals.",
   status: 'shipping',
   description:
     'Curated cables, video adapters, and storage tested with Openterface KVM hardware. Build a field-ready kit with the right host cables, target connectors, and a portable bag from TxA Shop.',
   seoDescription:
-    "Openterface-Zubehör — Kabel, Adapter, Toolkit-Taschen und Videoanschlüsse.",
-  keywords: "KVM-Zubehör, HDMI-Kabel, USB-C-Kabel, Toolkit-Tasche",
+    "Openterface-accessoires — kabels, adapters, toolkit-tassen en videoconnectoren.",
+  keywords: "KVM-accessoires, HDMI-kabel, USB-C-kabel, toolkit-tas",
   heroImage: 'https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp',
   heroImages: [
     'https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp',
     'https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp',
     'https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp',
   ],
-  buyLabel: "JETZT shoppen",
+  buyLabel: "Shop NU",
   buyHref: siteConfig.links.shop,
   painPoints: [
-    "Das Fehlen des richtigen Kabels vor Ort verzögert jede Reparatur",
+    "Het missen van de juiste kabel op locatie vertraagt elke reparatie",
   ],
   solutions: [
-    "Kuratiertes Zubehör, getestet mit Openterface-Produkten",
+    "Gecurateerde accessoires getest met Openterface-producten",
   ],
   hwFeatures: [
-    { title: "Videoadapter", description: "HDMI, VGA und Spezialanschlüsse." },
-    { title: "Hochgeschwindigkeitskabel", description: "USB-C- und Type-A-Kabel für KVM-Workloads." },
-    { title: "Toolkit-Tasche", description: "Organisieren Sie Ihr gesamtes Openterface-Kit." },
+    { title: "Video-adapters", description: "HDMI-, VGA- en speciale connectoren." },
+    { title: "High-speed kabels", description: "USB-C- en Type-A-kabels gebouwd voor KVM-workloads." },
+    { title: "Toolkit-tas", description: "Organiseer je volledige Openterface-kit." },
   ],
   swFeatures: [],
   specs: [
@@ -104,9 +104,9 @@ export const accessoriesProduct: Product = {
     { label: 'Docs', value: 'Per-SKU specs and setup guides on docs' },
   ],
   useCases: [
-    "Organisation des Field-Kits",
-    "Videoformat-Konvertierung",
-    "Ersatzkabel für IT-Notfalltaschen",
+    "Organisatie van veldkits",
+    "Videoformaatconversie",
+    "Reservekabels voor IT-go-bags",
   ],
   useCaseCards: [
     {
@@ -129,7 +129,7 @@ export const accessoriesProduct: Product = {
   specsDocsHref: docsPath('/accessories/'),
   docsOverviewHref: docsPath('/accessories/'),
   docLinks: [
-    { label: "Alle SKUs", href: docsPath("/product/accessories/") },
+    { label: "Alle SKU's", href: docsPath("/product/accessories/") },
     { label: "TxA Shop", href: docsPath("https://shop.techxartisan.com") },
   ],
   legacyBase: "/products/accessories/",
