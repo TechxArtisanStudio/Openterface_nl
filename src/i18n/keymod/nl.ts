@@ -9,7 +9,7 @@ export const nl: KeymodLandingStrings = {
     },
     nav: {
       docs: "Docs",
-      preLaunchCta: "Pre-launch",
+      preLaunchCta: "Steunen op Crowd Supply",
     },
     povTabs: {
       keyboard: "Toetsenbord",
@@ -28,7 +28,7 @@ export const nl: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "Sluit aan op het doelapparaat. BLE-bediening, geen drivers vereist, BIOS-klaar. Server, pc of console. Elke USB-poort.",
       docsCta: "Docs",
-      preLaunchCta: "Pre-launch",
+      preLaunchCta: "Steunen op Crowd Supply",
     },
     whatItIs: {
       eyebrow: "Wat het is",
@@ -49,7 +49,7 @@ export const nl: KeymodLandingStrings = {
       eyebrow: "Kies je poort",
       title: "Mini vs Plus",
       stackLine: "Dezelfde KeyCmd-app. Een andere dongle voor de poort van je machine.",
-      crowdSupplyCta: "Pre-lancering op Crowd Supply",
+      crowdSupplyCta: "Live op Crowd Supply",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C male → doelapparaat",
@@ -127,10 +127,10 @@ export const nl: KeymodLandingStrings = {
         mediaLabel: "POV KM Pro hybride indeling (placeholder)",
       },
       proTerminal: {
-        badge: "Terminal · Preview",
+        badge: "Terminal",
         title: "SSH vanaf je telefoon",
-        lead: "USB bij bedrade aansluiting. Bluetooth bij het rack. Preview-demo's zijn nu beschikbaar in KeyCmd.",
-        body: "Speciale Terminal-modus in KeyCmd: SSH via USB ECM (Plus) of BLE-Eth (Mini). De volledige productie-integratie volgt in KeyMod firmware fase 2.",
+        lead: "Open SSH-sessies rechtstreeks vanuit KeyCmd. USB bij bedrading. Bluetooth bij het rack.",
+        body: "Terminal-modus in KeyCmd: SSH via USB ECM (Plus) of BLE-Eth (Mini). Werkt vandaag met macOS- en Linux-doelen.",
         mediaLabel: "Terminal SSH-sessie (USB-transport, nieuwe opname)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const nl: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "Terminal · Preview",
+          badge: "Terminal",
           title: "SSH vanaf je telefoon",
           body: "De speciale Terminal-modus voert SSH uit via de KeyMod-bridge. Kies USB voor snelheid bij de machine of Bluetooth wanneer je aan de andere kant van de ruimte bent.",
-          experimentalHint: "Preview-functie. Live SSH via KeyMod-hardware volgt in firmware Fase 2.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "Interactieve demo",
-            title: "Terminal Preview",
+            title: "Terminal Demo",
             summary: "Probeer de voorgeprogrammeerde SSH-sessie replay. Geen hardware vereist.",
             statusDisconnected: "Niet verbonden",
             statusConnecting: "Verbinden…",
             statusConnected: "Verbonden",
-            demoBleLabel: "Preview demo (Bluetooth)",
-            demoUsbLabel: "Preview demo (USB)",
+            demoBleLabel: "Demo (Bluetooth)",
+            demoUsbLabel: "Demo (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "Benaderende UI. Controleer KeyCmd op je telefoon voor de live app.",
@@ -290,7 +290,7 @@ export const nl: KeymodLandingStrings = {
             label: "BLE-Eth · KeyMod Mini",
             body: "Draadloze SSH wanneer Mini op het doel is aangesloten. Compacte terminal-geometrie aanbevolen. Preview demo vandaag beschikbaar in KeyCmd.",
           },
-          notice: "KeyCmd wordt vandaag geleverd met Terminal UI en transport stack, inclusief Preview demo's (USB en Bluetooth). Live SSH via KeyMod-hardware volgt na de goedkeuring van firmware Fase 2.",
+          notice: "Terminal-modus is vandaag beschikbaar in KeyCmd. Open SSH-sessies via de KeyMod-brug op macOS- en Linux-doelen. Windows-doelondersteuning via RNDIS is in ontwikkeling.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const nl: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "Product journey",
       title: "From concept to your desk",
-      subtitle: "Seven milestones shipped. Pre-launch validation is underway. Crowdfunding and fulfillment are next.",
+      subtitle: "Acht mijlpalen behaald. Beperkte engineering-samples zijn gedistribueerd. Crowdfunding is live op Crowd Supply.",
       scrollHint: "← Swipe for earlier milestones",
       nowLabel: "Now",
-      nowSublabel: "Pre-launch · final hardware & firmware validation",
+      nowSublabel: "Crowdfunding live op Crowd Supply",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const nl: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Crowd Supply pre-launch",
-          lead: "Campaign page live. Follow for launch day.",
+          title: "Crowd Supply-campagne live",
+          lead: "De campagne is live. Steun KeyMod om de jouwe veilig te stellen.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const nl: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "Beta · Round 2",
-          title: "Next beta invites",
-          lead: "Wider closed beta on refreshed firmware and hardware before crowdfunding.",
-          timingLabel: "Before launch",
-          href: "#updates",
+          status: "done",
+          title: "Engineering-samples gedistribueerd",
+          lead: "Beperkte engineering-eenheden toegewezen aan vroege ondersteuners voor validatie in de praktijk.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "Crowdfunding opens",
-          timingLabel: "~Mid-July 2026",
+          status: "done",
+          title: "Crowdfunding live",
+          timingLabel: "Augustus 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const nl: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Pre-launch on Crowd Supply",
-      body: "Back KeyMod Mini and Plus on Crowd Supply — pocket USB bridges that turn your phone into a wireless console. Support us to make it real!",
-      cta: "Pre-launch",
+      title: "Live op Crowd Supply",
+      body: "Steun KeyMod Mini en Plus op Crowd Supply. Pocket USB-bruggen die je telefoon in een draadloze console veranderen. De campagne is live.",
+      cta: "Steun de campagne",
     },
     crowdSupplySupport: {
       eyebrow: "Back the project",
       title: "Help us ship what is next",
-      body: "Follow KeyMod on Crowd Supply and back the campaign when it opens. Experimental modes like Agent ship faster when more builders support the project — every backer helps move the firmware roadmap from queue to reality.",
-      cta: "Follow on Crowd Supply",
+      body: "KeyMod is live op Crowd Supply. Steun de campagne en help ons het firmware-roadmap uit te bouwen. Experimentele modi zoals Agent komen sneller uit als meer makers het project steunen. Elke backer koopt ons meer engineering-tijd.",
+      cta: "Steunen op Crowd Supply",
     },
     crowdSupplyOpensource: {
       eyebrow: "Open by design",
@@ -608,7 +605,7 @@ export const nl: KeymodLandingStrings = {
       title: "Get KeyMod launch updates",
       description: "Product launches, firmware releases, and setup guides. At most one email per month. No spam.",
       benefits: [
-        "Early access to crowdfunding and pre-order windows",
+        "Directe toegang tot de Crowd Supply-campagne",
         "Setup guides and KeyCmd release notes",
         "Unsubscribe anytime with one click",
       ],
